@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background-color: #ddd;
+    }
+    li {
+      flex-grow: 1;
+    }
+    a {
+      color: #424242;
+      text-decoration: none;
+      padding: 14px 20px;
+      text-align: center;
+      display: block;
+      border-bottom: 4px solid #ddd;
+    }
+    a.active {
+      text-decoration: none;
+      color: white;
+      background-color: #4db6ac;
+    }
+    a:hover {
+      background-color: #424242;
+      color: white;
+      border-bottom: 4px solid #4db6ac;
+    }
+    a.active:hover{
+      background-color: #4db6ac;
+    }
+  </style>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">HOME</a></li>
+        <li><a href="#">SERVICE</a></li>
+        <li><a href="#">PROJECT</a></li>
+        <li><a href="#">ABOUT</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
